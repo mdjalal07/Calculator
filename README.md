@@ -21,7 +21,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/calculator-app.git
+git clone https://github.com/mdjalal07/Calculator.git
 Open the project folder:
 
 bash
