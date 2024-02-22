@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 350px;
+    height: 600px;
+    margin: auto;
+  
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    border-radius: 15px;
+    margin-top: 4rem;
+    background-color: #5C8374;
+    
+   
+}
+.display{
+    
+    display: flex;
+    justify-content: end;
+    /* align-content: end; */
+  
+    /* width: 100%; */
+    border: 1px solid;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 1rem 0.8rem;
+    overflow:hidden;
+    background-color: #040D12;
+    color: #93B1A6;
+    margin-bottom: 2rem;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    
+}
+button{
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #93B1A6;
+    color: #000000;
+    box-shadow: 0 0 20px #312d2d;
+}
+.AC,.DE,.arith-btn{
+    background-color: #183D3D;
+    color:#93B1A6 ;
+}
